@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
-import Form from "./form";
+import Form from "./Form";
 
 const App = () => {
   const [isLoggedIn , setIsLoggedIn] = useState(false);

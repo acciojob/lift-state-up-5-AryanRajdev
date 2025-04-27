@@ -3,7 +3,7 @@ import React from "react";
 const Form = ({ setIsLoggedIn }) => {
 
     function handleSubmit(e){
-       e.preventDefault;
+       e.preventDefault();
        setIsLoggedIn(true);
     }
 
